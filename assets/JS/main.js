@@ -22,6 +22,7 @@ for (let index = 1; index <= 100; index++) {
 
         numberContainer.insertAdjacentHTML("beforeend", fizzElement)
 
+        //inserire i numeri mancanti non multipli ne di 3 ne di 5
     } else {
         numberContainer.insertAdjacentHTML("beforeend", neutralElement)
     }
