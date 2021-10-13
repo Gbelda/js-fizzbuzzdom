@@ -1,7 +1,39 @@
 body{
     background-color: #183A4A;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+    justify-content: space-evenly;
+}
+
+.box{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding-bottom: 10px;
+}
+
+.fizz{
+    background-color: #61D2A4;
+}
+
+.buzz{
+    background-color: #F9D277;
+
+}
+
+.fizzbuzz{
+    background-color: #DE5471;
 }
